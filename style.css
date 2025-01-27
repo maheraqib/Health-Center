@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#header {
+    padding: 5px 5px;
+    border-top: 0.2px solid #ece6e6;
+    border-bottom: 0.2px solid #ece6e6;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-p {
+    font-size: 12px;
+    line-height: 24px;
+    max-width: 33.33%;
+    padding-left: 70px;
+}
+
+.header-p p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+}
+
+.header-info {
+   margin-right: 0px;
+   display: flex;
+   position: relative;
+   top: 0;
+   right:0;
+   padding-right: 20px;
+}
+
+.header-info span {
+    font-weight: 300;
+    display: inline-flex;
+    padding: 11px 20px;
+    color: #757575;
+   
+}
+
+.header-info i{
+    padding-right: 10px;
+    color: greenyellow;
+  
+}
+
+.header-info .email-icon {
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+
+.header-info .email-icon a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.header-info .email-icon a:hover {
+    color: greenyellow;
+    transition: 0.3s;
+}
+
+/* navbar start here */
+
+#navbar{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    padding-top: 15px;
+    background-color: white;
+}
+
+.navbar-menu {
+    /* padding-left: 15px; */
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.navbar-header {
+    padding: 15px 15px;
+    font-size: 25px;
+    line-height: 20px;
+    padding-left: 70px;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+
+.navbar-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-header i{
+    color: greenyellow;
+
+}
+
+
+.navbar-links ul{
+    display: flex;
+   
+}
+
+.navbar-links ul li{
+    float: left;
+    display: block;
+    padding-right: 25px;    
+} 
+
+.navbar-links ul li a{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #424242;
+    font-size: 17px;
+}
+
+.navbar-links ul li a:hover{
+    color: #337ab7;
+    transition: all 0.3s;
+}
+
+.navbar-links .navbar-links-list .appointment-btn a{
+    background: #a5c422;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 5px;
+    color: white;
+}
+
+.navbar-links .navbar-links-list .appointment-btn a:hover{
+    background-color: #337ab7;
+    transition: all 0.4s;
+}
+
+/* navbar ended here */
+
+/* main section start here */
+
+#main {
+    padding: 50px 0;
+    background-image: url(images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.main-content h3{
+    font-size: 28px;
+    font-family:sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    /* padding: 10px 0 0 0; */
+}
+
+.main-content h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 20px 0 30px 0;
+}
+
+.main-content .appointment-btn {
+    background: #a5c422;
+    border-radius: 2px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 12px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-content .appointment-btn:hover {
+    background-color: #337ab7;
+    border: #424242;
+}
+
+/* About section start here */
+
+#About {
+    background-image: url(images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 150px 0 100px 0;
+}
+
+.container{
+    width: 40%;
+    padding-left: 70px;
+}
+
+.container h2 {
+    color: #272727;
+    font-size: 3em;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.container p {
+    color: #757575;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#About .container .profile-data {
+    display: row;
+    position: relative;
+    margin: 1rem;
+}
