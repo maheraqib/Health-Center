@@ -175,7 +175,7 @@
 .main-content h3{
     font-size: 28px;
     font-family:sans-serif;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     /* padding: 10px 0 0 0; */
 }
@@ -183,7 +183,7 @@
 .main-content h1{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
     padding: 20px 0 30px 0;
 }
 
@@ -210,31 +210,124 @@
     background-position: top right;
     background-size: cover;
     padding: 150px 0 100px 0;
+
 }
 
 .container{
-    width: 40%;
-    padding-left: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 80%;
+        margin: 50px auto;
+        padding: 20px;
+        
 }
 
-.container h2 {
-    color: #272727;
-    font-size: 3em;
-    padding-bottom: 10px;
-    letter-spacing: -1px;
+.about-heading{
+   max-width: 50%;
 }
 
-.container p {
-    color: #757575;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 20px;
-    margin-bottom: 10px;
-    
+
+.about-heading i {
+    background: black;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 5px;
 }
 
-#About .container .profile-data {
-    display: row;
-    position: relative;
-    margin: 1rem;
+.about-heading p {
+    font-size: 17px;
+    color: #666;
+    margin: 15px 0;
 }
+
+.doctor-info {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 20px;   
+}
+
+.doctor-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.doctor-info h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.doctor-info p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* doctor section start here  */
+#our-team h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.our-doctors {
+    display: flex;
+    padding: 100px 100px;
+    gap: 30px;
+}
+
+.doctors {
+        background-color: #fff;
+         border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* text-align: center; */
+        width: 370px;
+           
+}
+
+        .doctors img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .team-info {
+            padding: 40px;
+        }
+
+        .team-info h3 {
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .team-info p {
+            padding-bottom: 5px;
+            font-size: 18px;
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .team-info-contact {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        .team-info-contact p {
+            font-size: 15px;
+            display: flex;
+            gap: 5px;
+        }
+
+        .team-info-contact i {
+            color: #777;
+        }
+
+        .team-info-contact a {
+            text-decoration: none;
+            color: #777;
+        }
