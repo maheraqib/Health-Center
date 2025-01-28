@@ -519,3 +519,12 @@ textarea {
 #message {
     margin-top: 10px;
 }
+
+#map {
+    padding: 70px 0;
+}
+
+iframe{
+    width: 99%;
+    height: 550px;
+}
