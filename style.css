@@ -331,3 +331,191 @@
             text-decoration: none;
             color: #777;
         }
+
+        /* doctor section end  */
+
+        /* news section start here  */
+
+        .news-heading {
+            text-align: center;
+            font-size: 40px;
+            padding: 20px 20px;
+        }
+
+        .news-list {
+            padding: 70px 100px;
+            display: flex;
+            gap: 30px;
+        }
+
+        .news-items {
+           background-color: #fff;
+           border-radius: 10px;
+           overflow: hidden;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* text-align: center; */
+           width: 370px;
+        }
+
+        .news-items img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .news-info {
+            padding: 30px;
+            text-align: left;
+        }
+
+        .news-info span {
+            display: block;
+            letter-spacing: o.5px;
+        }
+
+        .news-info h3 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .news-info p {
+            color: #757575;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 24px;
+            padding-bottom: 20px;
+        }
+
+        .news-author-profile {
+            display: flex;
+            padding: 20px 0px;
+
+        }
+
+        .news-author-profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        /* appointment section start here  */
+
+.appointment-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px;
+    margin: auto;
+}
+
+/* Image Styling */
+.appointment-image img {
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    max-width: 550px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#appointment-form .appointment-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Submit Button */
+#submit {
+    width: 100%;
+    background: #8bc34a;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: #7cb342;
+}
+
+.name, .email, .date, .Select, .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.Select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#telephone {
+    margin-top: 10px;
+}
+
+#message {
+    margin-top: 10px;
+}
