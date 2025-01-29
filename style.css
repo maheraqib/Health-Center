@@ -520,6 +520,8 @@ textarea {
     margin-top: 10px;
 }
 
+/* map section start here */
+
 #map {
     padding: 70px 0;
 }
@@ -527,4 +529,153 @@ textarea {
 iframe{
     width: 99%;
     height: 550px;
+}
+
+/* map sectionn end here */
+
+/* footer section start here */
+
+
+.footer-items {
+    float: left;
+    padding: 70px 100px;
+    display: flex;
+    
+}
+
+.contact-info {
+    width: 33.33%;
+}
+
+.contact-info h3 {
+    padding: 20px 10px;
+    font-size: 25px;
+    color: #333;
+}
+
+.contact-info p {
+    padding-bottom: 20px;
+    width: 70%;
+    line-height: 30px;
+    color: #333;
+    font-size: 20px;
+}
+
+
+.contact-info-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.contact-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-news {
+    width: 33.33%;
+
+}
+
+.footer-news h3 {
+    padding: 20px 10px;
+    font-size: 25px;
+    color: #333;
+    /* width: 100%; */
+}
+
+.latest-stories {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.story-image img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+
+.story-info {
+    padding: 10px;
+    height: 50px;
+    flex-direction: column;
+}
+
+.story-info h5 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.story-info span {
+    color: #666;
+    font-size: 15px;
+}
+
+.story-info a {
+    text-decoration: none;
+    color: #666;
+}
+
+.story-info a:hover {
+    color: #337ab7;
+    transition: 0.3s ease-in;
+}
+
+.footer-time {
+    width: 33.33%;
+}
+
+.opening-hours h4 {
+    font-size: 25px;
+    padding: 20px 10px;
+    color: #333;
+}
+
+.opening-hours p {
+    line-height: 18px;
+    color: #636262;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+
+.opening-hours span {
+    padding-left: 10px;
+}
+
+.social-icon i {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.social-icon i:hover {
+    color: #337ab7;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
 }
