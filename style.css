@@ -161,16 +161,23 @@
 
 #main {
     padding: 50px 0;
-    background-image: url(images/main-banner.jpg);
     background-repeat: no-repeat;
-    background-size: cover ;
-    height: 100vh;
+    background-size: cover;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-
+    animation: slideshow 15s infinite ease-in-out;
 }
+
+@keyframes slideshow {
+    0% { background-image: url("images/main-banner.jpg"); }
+    33% { background-image: url("images/main-banner2.jpg"); }
+    66% { background-image: url("images/main-banner3.jpg"); }
+    100% { background-image: url("images/main-banner.jpg"); } 
+}
+
 
 .main-content h3{
     font-size: 28px;
